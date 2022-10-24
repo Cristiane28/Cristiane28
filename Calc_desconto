@@ -1,0 +1,27 @@
+# include <stdio.h>
+# include <stdlib.h>
+
+/*
+Uma pessoa comprou 2 camisas por 120 e outra por 70
+e a loja deu os 10% de desconto. Faça um algoritmo que
+calcule o preço com desconto das camisas e o valor total
+pago.
+*/
+
+int main ()
+{
+    int camisas;
+    int desct;
+    int total;
+
+    camisas = (120+120+70);
+    desct = 31;
+
+    total = camisas-desct;
+
+    printf ("O Total da Compra: %.2d\n",total);
+
+
+    return 0;
+
+}
