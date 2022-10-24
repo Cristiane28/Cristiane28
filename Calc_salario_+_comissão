@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/*
+A revendedora pica pau paga a seus funcionarios vendedores
+dois salarios minimos fixos, mais uma comissão de 5% do valor
+das vendas. Faça um algoritmo que calcule o salario total
+de um vendedoe que vendeu R$ 145.000.
+*/
+
+int main()
+{
+    float salario = 1800;
+    float vendas = 145000*0.05;
+    float tsalario = (salario+vendas);
+
+    printf("Total do Salario: %.2f\n",tsalario);
+
+    return 0;
+}
