@@ -1,0 +1,32 @@
+# include <stdio.h>
+# include <stdlib.h>
+
+/*
+Uma empresa de vendas oferece para seus clientes um desconto
+que é função do valor da compra feita pelo cliente. Este desconto
+é de 20% se o valor da compra for maior ou igual a R$5000.00.
+Faça um algoritmo para imprimir ovalor da compra e o desconto obtido
+por um determinado cliente.
+*/
+
+int main ()
+{
+    float compra,comprat,desc;
+
+    printf ("Digite valor da compra: ");
+    scanf ("%f",&compra);
+
+    desc = compra*0.2;
+
+    if (compra >= 5000){
+        comprat = compra-desc;
+
+    printf ("\nO valor da sua compra com 20%% de desconto: %.2f\n",comprat);
+    }
+    else
+
+            printf ("\nValor da Compra: %0.2f\n",compra);
+
+
+    return 0;
+}
