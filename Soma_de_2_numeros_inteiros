@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/*
+Elabore um algoritmo que some 457 com 78.
+*/
+
+int main()
+{
+    int x,y,soma;
+
+    x=457;
+    y=78;
+    soma = x + y;
+
+    printf ("Sua soma: %d\n",soma);
+    return 0;
+}
