@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/*
+Faça um algoritmo para ler dois valores  referentes
+as notas escolares de um aluno e apresentar se ele
+foi "aprovado" ou "reprovado".
+*/
+
+int main()
+{
+    float nota1,nota2,media;
+
+    printf ("Digite Nota: ");
+    scanf ("%f",&nota1);
+
+    printf ("Digite Nota: ");
+    scanf ("%f",&nota2);
+
+    media = (nota1+nota2)/2;
+
+    if (media >= 5){
+        printf ("\nAprovado!");
+    }else{
+        printf ("\nReprovado!");
+    }
+
+    return 0;
+}
