@@ -1,0 +1,24 @@
+# include <stdio.h>
+# include <stdlib.h>
+
+/*
+Faça um algoritmo para determinar a Area de perimetro de um retangulo
+cujo os lados tem a medida 2 na vertical (altura) e 20 na base. Area = (A*A e B*B)=A+B.
+*/
+
+int main()
+{
+   int altura,base,perimetro,produto,peri;
+
+   altura = 2;
+   base = 20;
+
+   perimetro = altura + altura;
+   peri = base + base;
+
+   produto = perimetro + peri;
+   printf ("Sua area e de:%d\n",produto);
+
+   return 0;
+
+}
