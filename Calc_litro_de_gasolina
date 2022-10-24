@@ -1,0 +1,26 @@
+# include <stdio.h>
+# include <stdlib.h>
+
+/*
+Um motorista deseja colocar np tanque do seu carro R$150.00
+de gasolina. Faça um algoritmo que considerando o litro de
+gasolina em R$5.89 e o valor pago pelo motorista calcule
+quantos litros o motorista consegue colocar no tanque.
+*/
+
+int main ()
+{
+   float gasolina;
+   float valor;
+   float litros;
+
+   gasolina = 5.89;
+   valor = 150;
+   litros = (valor/gasolina);
+
+   printf ("Quantidade de litros: %.2f\n",litros);
+
+
+
+   return 0;
+}
