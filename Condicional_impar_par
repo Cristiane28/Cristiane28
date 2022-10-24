@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/*
+Faça um algoritmo que para determinado valor,
+informe se o mesmo e par ou impar.
+*/
+
+int main()
+{
+    int numero;
+
+    printf ("Digite um numero: ");
+    scanf ("%d",&numero);
+
+    if(numero%2==0){
+        printf ("\nNumero par: \n");
+
+    }else{
+        printf ("\nNumero Impar: \n");
+
+    }
+    return 0;
+}
