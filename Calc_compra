@@ -1,0 +1,31 @@
+# include <stdio.h>
+# include <stdlib.h>
+
+/*
+Suponha que vc foi ao mercado é comprou, 2 quilos de cafe, cujo valor
+do kl é 5.50 R$, 3 litross de leite, cujo valor é 10.00 R$ e uma duzia
+de bananas, cujo o valor é 3.40 R$. Faça um algoritmo que calcule o total
+gasto com cada produto.
+*/
+
+int main ()
+{
+    int cafe;
+    int leite;
+    float banana;
+    float total;
+
+    cafe = 5.50*2;
+    leite = 10*3;
+    banana = 3.40;
+
+
+    printf ("Total cafe: %d\n",cafe);
+    printf ("Total leite: %d\n",leite);
+    printf ("Total Banana: %0.2f\n", banana);
+
+    total = cafe+leite+banana;
+    printf ("Total da Compra: %0.2f\n",total);
+
+    return 0;
+}
