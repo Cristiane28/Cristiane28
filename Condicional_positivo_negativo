@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/*
+Faça um algoritmo que, para um determinado valor, informe se o numero é
+positivo ou negativo. (Não usar senão).
+
+*/
+
+int main()
+{
+    float numero;
+
+    printf ("Digite Numero Positivo ou Negativo: ");
+    scanf ("%f",&numero);
+
+    if (numero >= 0){
+        printf ("\nNumero Positivo ",numero);
+    }
+    {
+        if (numero < 0)
+            printf ("\nNumero Negativo");
+    }
+    return 0;
+}
