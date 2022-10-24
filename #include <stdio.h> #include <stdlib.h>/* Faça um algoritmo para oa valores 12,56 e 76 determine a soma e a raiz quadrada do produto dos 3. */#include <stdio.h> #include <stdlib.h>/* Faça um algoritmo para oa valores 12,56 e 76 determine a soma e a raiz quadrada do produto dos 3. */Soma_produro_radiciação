@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/*
+Faça um algoritmo para oa valores 12,56 e 76 determine a soma e a raiz
+quadrada do produto dos 3.
+*/
+
+int main()
+{
+    int n1 = 12;
+    int n2 = 55;
+    int n3 = 76;
+    int soma = n1+n2+n3;
+    float produto = n1*n2*n3;
+    float raizq;
+
+    raizq = sqrt(produto);
+
+    printf ("Sua Soma: %d",soma);
+    printf ("\nSeu Produto: %.2f",produto);
+    printf ("\nSua Raiz: %.2f\n",raizq);
+
+    return 0;
+}
