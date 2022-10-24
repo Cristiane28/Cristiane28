@@ -1,0 +1,25 @@
+# include <stdio.h>
+# include <stdlib.h>
+
+/*
+Faça um algoritmo para ler a idade de um individuoe verifcar se ele pode votar em caso
+afirmativo escreva a mensagem "Apto a "Votar".
+(Adicionei uma extrutura a mais, do pedido no enuciado).
+(Condição do teste, se é maior que 16 anos).
+*/
+
+int main()
+{
+int idade;
+
+printf ("Digite sua idade: " );
+scanf ("%d",&idade);
+
+if (idade >=16){
+    printf ("\nApto a votar",idade);
+
+}else{
+    printf ("\nNao apto a votar");
+
+}
+return 0;
