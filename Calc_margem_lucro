@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/*
+Uma obra de arte foi comprada por 5000.00R$
+e vendida por 6000.00R$. Qual foi o lucro percentual
+obtido na operação?
+
+*/
+
+int main()
+{
+    float custo = 5000;
+    float lucro = 6500;
+    float percentual = ((lucro*100)/5000)-100;
+
+    printf ("Seu percentual de lucro: %.2f\n",percentual);
+
+    return 0;
+}
