@@ -1,0 +1,35 @@
+# include <stdio.h>
+# include <stdlib.h>
+
+/*
+Supondo que as variaveis no,na,nmal,sx sejam utilizados para
+armazenar a nota do aluno, o nome do aluno, o numero da matricula
+e o sexo, declareas corretamente, associando o tipo primitivo
+correto ao dado que sera armazenado.
+*/
+
+int main ()
+{
+    int no;
+    char na;
+    char nmal;
+    char sx;
+
+    fflush(stdin);
+    printf ("Nome do Aluno: \n");
+    scanf ("%s",&na);
+
+    fflush(stdin);
+    printf ("\nNumero da Matricula: \n");
+    scanf ("%s",&nmal);
+
+    fflush (stdin);
+    printf ("\nSexo: \n");
+    scanf ("%s",&sx);
+
+    fflush (stdin);
+    printf ("\nNota: \n");
+    scanf ("%d",&no);
+
+return 0;
+}
