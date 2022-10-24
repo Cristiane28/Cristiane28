@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/*
+Faça um algoritmo para ler dois numeros e
+apresentar a diferença do maior pelo menor.
+*/
+
+int main()
+{
+    int n1,n2;
+
+    printf ("Digite Primeiro Numero: \n");
+    scanf ("%d",&n1);
+
+    printf ("\nDigite Segundo Numero: \n");
+    scanf ("%d",&n2);
+
+    if (n1>n2){
+        printf ("\nPrimeiro numero maior\n");
+
+    }else{
+        printf ("\nSegundo Numero e Maior\n");
+    }
+
+    return 0;
+}
