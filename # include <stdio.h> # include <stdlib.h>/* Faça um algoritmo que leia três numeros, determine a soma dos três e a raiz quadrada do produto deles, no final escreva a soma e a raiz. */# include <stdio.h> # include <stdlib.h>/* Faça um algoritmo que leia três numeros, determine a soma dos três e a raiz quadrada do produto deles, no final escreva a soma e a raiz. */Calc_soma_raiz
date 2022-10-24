@@ -1,0 +1,37 @@
+# include <stdio.h>
+# include <stdlib.h>
+
+/*
+Faça um algoritmo que leia três numeros, determine a soma dos três
+e a raiz quadrada do produto deles, no final escreva a soma e a raiz.
+*/
+
+int main ()
+{
+    float n1;
+    float n2;
+    float n3;
+    float soma;
+    float produto;
+    double raiz;
+
+    printf ("Digiti Numero 1: ");
+    scanf ("%f",&n1);
+
+    printf ("Digite Numero 2: ");
+    scanf ("%f",&n2);
+
+    printf ("Digite Numero 3: ");
+    scanf ("%f",&n3);
+
+    soma = n1+n2+n3;
+    produto = n1*n2*n3;
+    raiz = sqrt (produto);
+
+    system ("cls");
+    printf ("Os valores digitados foram:\n%.2f \n%.2f \n%.2f\n", n1,n2,n3);
+    printf ("\nO Produto e: %0.2f\nA raiz e: %0.2f\nA soma e: %0.2f",produto,raiz,soma);
+
+
+    return 0;
+}
